@@ -80,6 +80,7 @@ struct ContentView: View {
             .toolbarBackground(.visible, for: .navigationBar)
         }
         .environmentObject(annotations)
+        .preferredColorScheme(.light)
     }
 }
 
